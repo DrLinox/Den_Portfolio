@@ -1,0 +1,35 @@
+.portfolio {
+  padding: 5rem 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--tertiary-color);
+  color: aliceblue;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2.5rem 2.5rem;
+  text-align: center;
+}
+.header h1 {
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 3rem;
+}
+.header h2 {
+  color: var(--primary-color);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+.header p {
+  width: 55%;
+  font-size: 0.8rem;
+  line-height: 2;
+  opacity: 70%;
+}

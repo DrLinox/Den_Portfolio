@@ -1,0 +1,17 @@
+.cta_button {
+  font-family: "Montserrat", sans-serif;
+  padding: 0.5rem 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
+  font-size: 0.7rem;
+  transition: 300ms ease-in-out;
+}
+.cta_button:hover {
+  background: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  transition: 300ms ease-in-out;
+}

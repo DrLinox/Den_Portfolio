@@ -1,0 +1,70 @@
+.testimonials-section {
+  position: relative;
+  height: 95vh;
+  width: auto;
+}
+.testimonials-section-bg-image {
+  width: 100%;
+  height: 100%;
+  background-image: url(https://images.unsplash.com/photo-1703435229494-cac1f47e6145?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.7
+  ); /* Adjust the overlay color and opacity */
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+p {
+  color: white;
+}
+.review {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+.review-boxes {
+  width: 300px;
+  height: 150px;
+  background-color: rgb(0, 0, 0, 0.5);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 300ms ease-in-out;
+}
+.review-boxes > p {
+  color: grey;
+}
+.review-boxes:hover > p {
+  color: white;
+  transition: 300ms ease-in-out;
+}
+.fa-quote-right {
+  color: var(--primary-color);
+  font-size: x-large;
+}
+.review-boxes:hover {
+  background-color: rgb(0, 0, 0, 0.8);
+  transform: scale(1.05);
+  transition: 300ms ease-in-out;
+}
